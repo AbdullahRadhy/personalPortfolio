@@ -1,0 +1,100 @@
+#header{
+	border: 1px solid red;
+}
+
+#navbar{
+	border: 1px solid red;
+}
+
+.navLink{
+	border: 1px solid blue;
+}
+
+#welcome-section{
+	border: 1px solid red;
+}
+
+#welcome-sectionH1{
+	border: 1px solid blue;
+}
+
+#welcome-sectionP{
+	border: 1px solid blue;
+}
+
+#projects{
+	border: 1px solid red;
+}
+
+#projectsH1{
+	border: 1px solid blue;
+}
+
+.cards{
+	border: 1px solid black;
+}
+
+.cardsImage{
+	border: 1px solid blue;
+}
+
+.cardsP{
+	border: 1px dotted blue;
+}
+
+#projectsMore{
+	border: 1px solid red;
+
+}
+
+#Cooperation{
+	border: 1px dotted red;
+}
+
+#CooperationH1{
+	border: 1px solid blue;
+}
+
+.guycards{
+	border: 1px dotted blue;
+}
+
+.guyImages{
+	border: 1px dotted black;
+}
+
+.guysP{
+	border: 1px dotted red;
+}
+
+#guyMore{
+	border: 1px solid red;
+}
+
+#footer{
+	border: 1px solid red;
+}
+
+#working{
+	border: 1px dotted blue;
+}
+
+#workingTitle{
+	border: 1px dotted black;
+}
+
+#workingP{
+	border: 1px solid blue;
+}
+
+#ContactPart{
+	border: 1px solid blue;
+}
+
+#copyRight{
+	border: 1px solid red;
+}
+
+#copyRightP{
+	border: 1px solid blue;
+}
