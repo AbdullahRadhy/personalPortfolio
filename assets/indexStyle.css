@@ -1,13 +1,46 @@
+body{
+	margin-top: 0px;
+}
 #header{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+	display: block;
+	position: sticky;
+	top: 0px;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 12vh;
+	height: 12vh;
+	margin-bottom: 20px;
+	background-color: #181641;
 }
 
 #navbar{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	min-width: relative;
+	width: 100%;
+	min-height: relative;
+	height: 100%;
+	
 }
 
+
 .navLink{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: relative;
+	width: 120px;
+	min-height: relative;
+	height: 100%;
+	margin: 0px 30px 0px 0px;
+	font-size: 1.8em;
+	color: #fff;
+	text-decoration: none;
+
 }
 
 #welcome-section{
