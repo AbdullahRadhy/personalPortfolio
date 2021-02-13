@@ -1,6 +1,8 @@
 body{
 	margin-top: 0px;
+	background-color: #f7d74b;
 }
+
 #header{
 	/*border: 1px solid red;*/
 	display: block;
@@ -10,8 +12,8 @@ body{
 	max-width: 100%;
 	min-height: 12vh;
 	height: 12vh;
-	margin-bottom: 20px;
-	background-color: #181641;
+	/*margin-bottom: 20px;*/
+	background-color: #f7d74b;
 }
 
 #navbar{
@@ -38,17 +40,29 @@ body{
 	height: 100%;
 	margin: 0px 30px 0px 0px;
 	font-size: 1.8em;
-	color: #fff;
+	color: #202020;
 	text-decoration: none;
 
 }
 
 #welcome-section{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+	min-width: 100%;
+	width: 100%;
+	min-height: 50vh;
+	height: 90vh;
+	background-color: #000;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 }
 
 #welcome-sectionH1{
 	border: 1px solid blue;
+
 }
 
 #welcome-sectionP{
