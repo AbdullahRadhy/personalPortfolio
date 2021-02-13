@@ -14,6 +14,7 @@ body{
 	height: 12vh;
 	/*margin-bottom: 20px;*/
 	background-color: #f7d74b;
+	border-bottom: 2px solid black;
 }
 
 #navbar{
@@ -66,8 +67,6 @@ body{
 	src: url('assets/ONEDAY/ONEDAY.ttf') format('ttf');
 	font-size: 3.5em;
 	color: #f7d74b;
-
-
 }
 
 #welcome-sectionP{
@@ -83,29 +82,68 @@ body{
 	border: 1px solid red;
 	min-width: 100%;
 	width: 100%;
-	min-height: 60vh;
-	height: 60vh;
+	min-height: 80vh;
+	height: 80vh;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#projectsH1{
+	border: 1px solid blue;
+	height: 20%;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+#cardsDiv{
+	/*border: 1px solid blue;*/
+	display: flex;
+	min-height: 80%;
+	height: 80%;
+	min-width: 100%;
+	width: 100%;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 
 }
 
-#projectsH1{
-	border: 1px solid blue;
+.cards{
+	border: 1px solid #202020;
+	min-height: 90%;
+	height: 90%;
+	min-width: 20%;
+	width: 22%;
+	border-radius: 10px;
+	margin: 0px 40px 0px 40px;
+
 }
 
-.cards{
-	border: 1px solid black;
-}
 
 .cardsImage{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	min-height: 80%;
+	height: 80%;
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+
 }
 
 .cardsP{
-	border: 1px dotted blue;
+	/*border: 1px dotted blue;*/
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+	margin-top: -1px;
+	font-family: sans-serif;
+	font-size: 1.5rem;
 }
 
 #projectsMore{
