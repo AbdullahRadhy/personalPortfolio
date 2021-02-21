@@ -267,12 +267,12 @@ body{
 	margin: 40px 0px 0px 10px;
 }
 
-#footer{
-	border: 1px solid blue;
+#CooperationSection{
+	/*border: 1px solid blue;*/
 	min-width: 100%
 	width: 100%;
-	min-height: 100vh;
-	max-height: 100vh;
+	min-height: 80vh;
+	max-height: 80vh;
 	margin-top: 70px; 
 	display: flex;
 	flex-direction: column;
@@ -283,9 +283,9 @@ body{
 }
 
 #workingDiv{
-	border: 1px dotted blue;
+	/*border: 1px dotted blue;*/
 	width: 100%;
-	height: 60vh;
+	height: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -337,15 +337,21 @@ body{
 
 
 #copyRight{
-	border: 1px solid red;
-	/*width: 100%;
-	height: 21vh;
+	/*border: 1px solid red;*/
+	border-top: 1px solid #f7d74b;
+	width: 100%;
+	height: 12vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;*/
+	justify-content: center;
+	background-color: #202020;
 
 }
 
 #copyRightP{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	color: #dce1e9;
+	text-align: center;
 }
