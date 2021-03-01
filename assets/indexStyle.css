@@ -124,6 +124,10 @@ body{
 	margin: 0px 40px 0px 40px;
 }
 
+.cards:hover{
+	transform: scale(1.05);
+}
+
 
 .cardsImage{
 	width: 100%;
@@ -355,3 +359,4 @@ body{
 	color: #dce1e9;
 	text-align: center;
 }
+
