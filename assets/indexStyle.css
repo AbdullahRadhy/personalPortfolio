@@ -47,6 +47,8 @@ body{
 
 }
 
+
+
 #welcome-section{
 	/*border: 1px solid red;*/
 	min-width: 100%;
@@ -69,7 +71,9 @@ body{
 	src: url('assets/ONEDAY/ONEDAY.ttf') format('ttf');
 	font-size: 3.5em;
 	color: #f7d74b;
+	
 }
+
 
 #welcome-sectionP{
 	/*border: 1px solid blue;*/
@@ -129,7 +133,6 @@ body{
 	transform: scale(1.05);
 	transition-delay: 0.3s;
 	box-shadow: 5px 5px 5px 5px none;
-	
 }
 
 .cardsImage{
@@ -238,6 +241,12 @@ body{
 	width: 100%;
 	margin-top: 10px; 
 	margin-bottom: 40px;
+}
+
+.guycards:hover{
+	transform: scale(1.05);
+	transition-delay: 0.3s;
+	box-shadow: 5px 5px 5px 5px none;
 }
 
 .guysP{
